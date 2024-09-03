@@ -1,0 +1,24 @@
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+$primary: #9B285F;
+$secondary: #FBFAD2;
+$tertiary: #fffffa;
+$link-decoration: none;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+.c-item{
+    height: 480px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+}
+
+.link-decoration {
+    text-decoration: none !important;
+}
